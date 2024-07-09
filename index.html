@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <html lang="vi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vocabulary Learning</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="website icon" type="jpg" href="/images/hieudubai.jpg"
+</head>
+<body>
+  <div class="container">
+    <h1>Vocabulary Learning</h1>
+    <div class="form-container">
+      <input style="border-radius: 10px; background-color: aqua;" type="text" id="word" placeholder="Enter new word">
+      <input style="border-radius: 10px; background-color: aqua;" type="text" id="definition" placeholder="Enter definition">
+      <button onclick="addWord()">Add Word</button>
+    </div>
+    <div class="word-list">
+      <h2 style="color: aliceblue; text-shadow: 
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;">Word List</h2>
+      <ul id="words"></ul>
+    </div>
+    <div class="quiz-container">
+      <h2 style="color: aliceblue;text-shadow: 
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+      -1px  1px 0 #000,
+       1px  1px 0 #000;">Quiz</h2>
+      <button style="border-radius: 10px; background-color: aquamarine;" onclick="startQuiz()">Start Quiz</button>
+      <div id="quiz"></div>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
