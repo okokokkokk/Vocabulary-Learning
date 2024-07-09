@@ -1,48 +1,52 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f32f2f;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: 
-    url(/images/background-gala-dinner-dep-19-800x377.jpg);
+    background-image:
+    url(https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/09/hinh-nen-vu-tru-35.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
   }
   
   .container {
-    border: rgb(217, 255, 0) solid 2px;
-    background-image:
-    url(/images/meono.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    border: 5px solid #e5ff00; 
+    background-color: #EBE300; 
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(189, 121, 121, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
+    text-align: center;
+    background-image:
+    url(https://i.pinimg.com/originals/bd/25/5b/bd255b0cb7f89e72892559cd86da8d3f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
   }
   
   h1 {
-    text-align: center;
-    background-color: blue;
-    border: #000 solid 2px;
-    color: rgb(254, 44, 44);
+    color: #e4f403;
+    background-color: #ffe0b2; 
+    border: 2px solid #e64a19; 
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 32px;
     margin-bottom: 20px;
     text-shadow: 
-      -1px -1px 0 #000000,  
-       1px -1px 0 #000000,
-      -1px  1px 0 #000,
-       1px  1px 0 #000;
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
   
   h2 {
+    color: #11ff00; 
     text-align: center;
   }
   
@@ -55,17 +59,26 @@ body {
   
   .form-container input {
     margin: 5px 0;
-    padding: 8px;
+    padding: 10px;
     width: 100%;
+    border: 1px solid #ff0000;
+    border-radius: 8px;
+    background-color: #ff0000; 
+    color: #ff000049;
   }
   
   .form-container button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #007bff; /* Màu nền cam đậm */
     color: white;
-    border: none;
-    border-radius: 4px;
+    border: 1px solid #000;
+    border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #e64a19; 
   }
   
   .word-list ul {
@@ -74,31 +87,49 @@ body {
   }
   
   .word-list li {
-    background: #007bff;
+    background: #ff5722;
     color: white;
     margin: 5px 0;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .quiz-container {
     text-align: center;
   }
   
+  #quiz {
+    margin-top: 20px;
+  }
+  
   #quiz button {
     padding: 10px 20px;
-    border-radius: 10px;
-    background-color: #28a745;
+    border-radius: 8px;
+    background-color: #24b746;
     color: white;
     cursor: pointer;
-    margin-top: 10px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #quiz button:hover {
+    background-color: #e64a19; 
   }
   
   .question-text {
-    color: white;
+    color: #000000; /* Màu chữ xám đậm */
+    background-color: #ffe0b2; /* Màu nền cam nhạt */
+    border: 2px solid #e64a19; /* Đường viền cam đậm */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-shadow: 
-      -1px -1px 0 #000,  
-       1px -1px 0 #000,
-      -1px  1px 0 #000,
-       1px  1px 0 #000;
+      -1px -1px 0 #ffffff,  
+      1px -1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff;
   }
+  
+
+  
